@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+td {
+    width: 5vw;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.noBorder {
+    border: none;
+}
+
+
+
+
+._color_1 {
+    background-color: #ff9966;
+}
+
+.color_2 {
+    background-color: #ff34ff;
+}
+
+.color_3 {
+    background-color: #94e0ff;
+}
+
+.color_4 {
+    background-color: #e2ccce;
+}
+
+.color_5 {
+    background-color: #ffe940;
+}
+
+.color_6 {
+    background-color:#ffdb73;
+}
+
+.color_7 {
+    background-color: #cdeb8b;
+}
+
+.color_8 {
+    background-color: #ebdca9;
+}
+
+.color_9 {
+    background-color: #e6e6fa;
+}
+
+.text_color_green {
+    color: green;
+}
+
+.text_color_blue {
+    color: blue;
+}
+
+.text_color_red {
+    color: red;
+}
+
+
+p{
+font-family: Oswald;
+font-size: 100px  !important;
+animation: Color 10s linear infinite;
+-webkit-animation: Color 10s ease-in-out infinite;
+text-shadow: 10px 10px #F0F0F0;
+}
+@keyframes Color{
+0%{
+color:#48F239;
+}
+10%{
+color: #F239F2;
+}
+20%{
+color:#4FC1E9;
+}
+30%{
+color:#F23996;
+}
+
+40%{
+color:#FFCE54;
+}
+50%{
+color:#7F11EC;
+}
+60%{
+color:#FC6E51;
+}
+70%{
+color:#EC117F;
+}
+80%{
+color:#EC1111;
+}
+90%{
+color:#11EAEC;
+}
+100%{
+color:#AC92EC;
+}
+}
+
+@-moz-keyframes Color{
+0%{
+color:#48F239;
+}
+10%{
+color: #F239F2;
+}
+20%{
+color:#4FC1E9;
+}
+30%{
+color:#F23996;
+}
+
+40%{
+color:#FFCE54;
+}
+50%{
+color:#7F11EC;
+}
+60%{
+color:#FC6E51;
+}
+70%{
+color:#EC117F;
+}
+80%{
+color:#EC1111;
+}
+90%{
+color:#11EAEC;
+}
+100%{
+color:#AC92EC;
+}
+}
+
+@-webkit-keyframes Color{
+0%{
+color:#48F239;
+}
+10%{
+color: #F239F2;
+}
+20%{
+color:#4FC1E9;
+}
+30%{
+color:#F23996;
+}
+
+40%{
+color:#FFCE54;
+}
+50%{
+color:#7F11EC;
+}
+60%{
+color:#FC6E51;
+}
+70%{
+color:#EC117F;
+}
+80%{
+color:#EC1111;
+}
+90%{
+color:#11EAEC;
+}
+100%{
+color:#AC92EC;
+}
+}
